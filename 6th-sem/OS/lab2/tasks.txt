@@ -1,0 +1,14 @@
+1. shell script for 
+(a) factorial of a number
+(b) check the input name is a file or directory
+
+2. wap to show the working of fork() system call.
+3. wap to show zombie process
+4. write c program and bash program for hello world program and compare the time of their execution.
+5. wap for fcfs scheduling to calculate the waiting time and turn around time of processes. 
+
+
+
+getpid() returns the process id after fork of different threads
+
+

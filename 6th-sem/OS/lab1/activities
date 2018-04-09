@@ -1,0 +1,52 @@
+1. arithematic operations on a file executed by 'bc' command.
+2. merging files using 'cat' command.
+3. finding differences in files using 'cmp' command.
+4. finding differences in files using 'diff' command.
+5. finding commonality in giles using 'comm' command.
+
+6. using 'chmod' to change file permissions.
+r - 4
+w - 2
+x - 1
+
+chmod ugo filename
+u - user - [0, 7]
+g - user_group - [0, 7]
+o - others - [0, 7]
+
+chmod u+w filename
+chmod g-x filename
+
+7. head -k filename
+displays first k lines
+
+8. tail -k filename
+displays last k lines
+
+9. vi basics
+:x write and save
+:n goes to line n
+:u undo the changes
+
+10. shell scripting basics
+vi filename.sh
+#!/bin/sh
+#to write comment
+commands
+give execute permission
+execute using ./filename.sh
+
+set variable as usual.
+to print value, use echo $name.
+
+
+H/W
+9. zip, gzip, unzip, gunzip, tar, gzip, fgrep, 
+
+grep (https://superuser.com/questions/508881/what-is-the-difference-between-grep-pgrep-egrep-fgrep)
+
+https://unix.stackexchange.com/questions/17949/what-is-the-difference-between-grep-egrep-and-fgrep
+
+https://www.quora.com/What-is-the-difference-between-grep-egrep-and-fgrep-in-Unix-How-would-you-explain-with-an-example
+
+https://www.tecmint.com/difference-between-grep-egrep-and-fgrep-in-linux/

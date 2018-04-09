@@ -1,0 +1,3 @@
+whoami
+cal
+date
